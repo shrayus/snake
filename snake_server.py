@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #-------------------------------------------------------------------------------
 # Name:        Snake_MMO
 # Purpose:     To win the Hackathon May 2-3
@@ -229,3 +230,6 @@ class Game:
         self.clean_board(3)
         self.print()
         return
+=======
+blah
+>>>>>>> 052a39e35e8e5b198c0d1b3af720e0c51a758c12
