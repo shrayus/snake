@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #-------------------------------------------------------------------------------
 # Name:        Snake_MMO
 # Purpose:     To win the Hackathon May 2-3
@@ -190,14 +190,6 @@ class Game:
                 self.board[block.position[1]][block.position[0]] = Game.EMPTY_BLOCK
         self.block_list = filter(lambda x: x.lifetime != 0, self.block_list)
         return
-
-    def run_game(self):
-        img = Image.new('RGB', (255,255), "black")
-        pixels = img.load()
-
-        for i in range(img.size[0]):
-            for j in range (img.size[1]):
-                pixels[i,j] = (i , j, 100)
                 
     def new_board_test(self):  #uses DEFAULT_BOARD_SIZE and STARTING_WALL to create a simple board
         for x in range(self.curr_walls):
@@ -230,6 +222,3 @@ class Game:
         self.clean_board(3)
         self.print()
         return
-=======
-blah
->>>>>>> 052a39e35e8e5b198c0d1b3af720e0c51a758c12
